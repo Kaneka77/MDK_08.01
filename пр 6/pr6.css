@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(252, 0, 197);
+}
+ul li {
+    display: inline-block;
+}
+ul {
+    background: rgb(206, 118, 4);
+}
+li {
+    padding: 10px;
+}
+* {
+    font-size: 15px;
+    font-family: Arial;
+}
+h1 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 18px;
+}
+main {
+    width: 80%;
+}
+aside {
+    width: 20%;
+}
+.content {
+    display: flex;
+}
+.prew {
+    width: 200px;
+    height: 100px;
+}
+.sp1 {
+    background: rgb(192, 32, 192);
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.sp2 {
+    background: rgb(197, 7, 7);
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.sp3 {
+    background: rgb(34, 170, 19);
+    background-size: cover;
+}

@@ -1,0 +1,29 @@
+.cink button {
+    margin-top: 10px;
+    width: 300px;
+    height: 70px;
+font-size: 30px;
+background-color: rgb(0, 188, 236);
+display:  flex;
+font-size: 25px;
+align-items: center;
+justify-content: space-evenly;
+
+}
+.cink p {
+font-size: 22px;
+padding: 10px;
+}
+
+.cink {
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+    justify-content: space-evenly;
+    height: 40%;
+    
+}
+
+img {
+    margin: 15px;
+}

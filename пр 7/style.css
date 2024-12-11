@@ -1,0 +1,81 @@
+.p1 {
+    text-align: center;
+}
+.p2 {
+    text-indent: 40px;
+}
+.p3 {
+   line-height: 40px; 
+}
+img {
+    vertical-align: middle;
+}
+.p5 {
+    word-spacing: 20px;
+}
+.p6 {
+    letter-spacing: 5px;
+}
+.p7 {
+    white-space: nowrap;
+}
+pre {
+    tab-size: 150px;
+}
+.p9 {
+    text-transform: capitalize;
+}
+.p10 {
+    direction: rtl;
+}
+#p11 {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+#p12 {
+    text-decoration: line-through;
+}
+#p13:first-letter {
+    font-size: 1.5em;
+    padding: 2px 10px;
+    margin-right: 5px; 
+    background: #FAF4F4;
+    border: 6px double;
+    color: #EE9966;
+    float: left;
+    font-weight: bold;
+}
+#p14::before,
+#p14::after {
+    content: "~";
+}
+#p15 {
+    font-family: Tahoma;
+}
+#p16 {
+    font-style: italic;
+}
+#p17 {
+    font-variant: small-caps;
+}
+#p18 {
+    font-weight: 700;
+}
+#p19 {
+    font-size: 150%;
+}
+#p20 {
+    color: aqua;
+}
+#p21 {
+    font: italic bold 14px/1.5 Times, 'New Century Schoolbook', serif;
+}
+body {
+    background-color: rgb(252, 0, 197);
+}
+ul li {
+    display: inline-block;
+}
+ul {
+    background: rgb(206, 118, 4);
+}

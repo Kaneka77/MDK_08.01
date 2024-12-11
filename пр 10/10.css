@@ -1,0 +1,85 @@
+
+
+.shop {
+    margin-top: 192px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 64px;
+}
+main article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 68px;
+}
+main article p {
+    width: 373px;
+    font-size: 14px;
+    padding-top: 13px;
+    margin: 0;
+    font-weight: 100;
+}
+main article h3 {
+    width: 331px;
+    font-size: 35px;
+    font-weight: 200;
+    padding-top: 13px;
+    margin: 0;
+}
+.tovar {
+    width: 300px;
+    height: 250px;
+    margin-top: 13px;
+}
+.tovar photo1 {
+    background: url("img/1.png");
+    background-size: cover;
+}
+.tovar photo2 {
+    background: url("img/2.png");
+    background-size: cover;
+}
+footer {
+    height: 304px;
+    margin-top: 47px;
+    background: url("img/city.png");
+    background-size: cover;
+    color: white;
+}
+span {
+    font-size: 80px;
+    margin: 0;
+}
+.footer p {
+    font-size: 20px;
+    font-weight: 100;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 18%;
+}
+.footer article {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 66px;
+    width: 221px;
+}
+
+
+.img1 {
+    display: flex;
+    
+}
+
+.img2 {
+    display: flex;
+}
+
+.img3 {
+    display: flex;
+
+}

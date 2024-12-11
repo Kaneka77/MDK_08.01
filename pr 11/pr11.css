@@ -1,0 +1,157 @@
+section{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+article img{
+    object-fit: fill;
+    width: 100%;
+    height: 60%;
+    margin-bottom: 10px;
+    
+}
+.corzin:hover{
+    background: white;
+    color:black ;
+}
+article{
+    margin-top: 5px;
+    padding: 10px;
+    width: 200px;
+}
+.tovar{
+    border: 2px solid rgb(3, 22, 184);
+    background: rgb(255, 255, 255);
+}
+
+.stoimost{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    
+}
+
+.karzina{
+    display: block;
+    
+    border: 1px solid rgb(255, 255, 255);
+    background: green;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+
+
+
+
+
+
+
+
+.category 
+{
+    display: inline-block;
+    float: left;
+    margin: 10px 10px 0 0;
+    color: white;
+
+
+
+}
+
+.price {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:red;
+    font-weight:900;
+    align-content: center;
+}
+
+.sale
+{
+    background: rgb(145, 18, 18);
+    padding: 10px;
+}
+
+
+.present
+{
+    background: orange;
+    padding: 10px;
+}
+
+
+.new {
+    background: rgb(0, 255, 208);
+    padding: 10px;
+}
+.button 
+{
+    display: inline-block;
+    padding: 20 px 40 px;
+} 
+.img1
+{
+margin: auto;
+height: 200px; ;
+width: 200px ;
+
+
+}
+
+.text 
+{
+  text-align: justify;  
+}
+
+
+.rating {
+    display: inline flex;
+    font-size: 0;
+}
+.rating span {
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: lightgrey;
+}
+.rating > span :before {
+    content: '★';
+}
+.rating > span.active {
+    color: gold;
+}
+/* --- end raiting ---*/
+header {
+    background: black;
+    padding: 10px;
+    color: rgb(253,193,193);
+}
+
+header h1 {
+    text-align: center;
+}
+header ul {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+ header ul li a {
+     display: block;
+     background: rgb(253,193,193);
+     padding: 10px;
+     margin-right: 10 px;
+     text-decoration: none;
+     color: black
+ }
+ header ul li a:hover {
+     background-color: rgb(253,101,101);
+ }

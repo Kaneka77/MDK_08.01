@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="pages\style\style.css\style.css">
+</head>
+<body>
+  <header>
+    Персональный сайт Горбунова Ильи<br>
+    <a href="index.html">Главная</a>
+    <a href="news.html">Новости</a>
+    <a href="personal.html">Личный кабинет</a>
+    <a href="work.html">Мои работы</a>
+    <a href="registration.html">Регистрация</a>
+
+        </header> 
+        <footer>
+            &copy; Илья Горбунов
+        </footer>
+</body>
+</html>
+  <title>Форма регистрации</title>
+  <style>
+    .form-container {
+      width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid rgb(194, 15, 15);
+      border-radius: 5px;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+    }
+    input {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: rgb(255, 255, 255);
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    button.clear {
+      background-color: #f44336;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Регистрация</h2>
+    <form id="registration-form">
+      <div class="form-group">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Телефон:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+      </div>
+      <button type="submit">Регистрация</button>
+      <button type="button" class="clear" onclick="clearForm()">Очистить</button>
+    </form>
+  </div>

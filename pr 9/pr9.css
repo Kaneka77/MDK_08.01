@@ -1,0 +1,120 @@
+.line li {
+    border: 1px solid pink;
+    padding: 30px;
+    
+    width: 10px;
+    background-color: plum;
+}
+.line li:hover{
+    font-weight: bold;
+}
+.line li{
+    display: inline-block;
+    margin: 50px;
+}
+.line {
+    
+    list-style-type: none
+}
+.links a {
+    border: 1px solid blue ;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    background-color: blue;
+    display: block;
+    color: white;
+}
+.links a:hover{
+    background: aqua;
+}
+
+.blocks div{
+    border: 1px solid red;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+    background-color: red; 
+    display: inline;
+    margin-left: 30px;
+    
+}
+.blocks{
+    margin-top: 40px;
+    margin-bottom: 40px;  
+}
+.blocks.non{
+    display: none;
+}
+.blocks div:hover{
+    font-weight: bold;
+}
+.links-markers a{
+    padding: 10px;
+    width: 200px;
+    background-color: darkred;
+    display: list-item;
+    color: white;
+}
+.links-markers a:hover{
+    background: darkblue;
+    color: beige;
+}
+.post1 .image{
+    background: url(img/weather-sun.jpg);
+    background-size:cover ;
+    width: 100px;
+    height: 95px;
+    float: inline-start;
+    border: 3px dashed red;
+}
+.post2 .image{
+    background: url(img/weather-sun.jpg);
+    background-size:cover ;
+    width: 100px;
+    height: 95px;
+    float: inline-end;
+    border: 3px dashed red;
+    background-color: red;
+}
+.post2{
+    border: 1px solid brown;
+    background-color: red;
+    margin: 10px;
+}
+.post1{
+    border: 1px solid brown;
+    background-color: red;
+    margin: 10px;
+}
+.post3 .sun{
+    margin: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+.post3 .snow{
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.post3 .wind{
+    margin: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+.post3 p{
+    background-color: cyan;
+    height: 20px;
+}
+.post3 img{
+    width: 100px;
+}
